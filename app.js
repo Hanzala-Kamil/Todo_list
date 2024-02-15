@@ -65,8 +65,20 @@ function saveLocalStorage() {
 }
 
 //edit the marker for page reload
-// function MarkReload(){
 
+// function loadCheckboxStates() {
+//   Object.keys(checkboxStates).forEach(id => {
+//     let checkbox = listItem.querySelector(`input[type="checkbox"][id="${id}"]`);
+//     displayData(lisTask);
+//     if (checkbox) {
+//       checkbox.checked = checkboxStates[id];
+//       let spanElement = checkbox.parentElement.querySelector("span");
+//       if (checkbox.checked) {
+//         spanElement.classList.add("mark");
+//       } else {
+//         spanElement.classList.remove("mark"); // Remove underline class if checkbox is not checked
+//       }
+//     }
+//   });
 // }
-
 
