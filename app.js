@@ -28,8 +28,8 @@ function displayData(arr) {
   listItem.innerHTML = "";
   arr.forEach((elm, i) => {
     listItem.innerHTML += ` 
-             <li>
-             <input type="checkbox" name="" id="" onclick="mark(this)">
+            <li>
+              <input type="checkbox" name="" id="" onclick="mark(this)">
               <span>${elm}</span>
               <button class="btn-style" onclick="remove(${i})"><i class="fa-solid fa-trash"></i></button>
               <button class="btn-style" onclick="edit(${i})"><i class="fa-solid fa-pen-to-square"></i></button>
@@ -76,7 +76,7 @@ function saveLocalStorage() {
 //       if (checkbox.checked) {
 //         spanElement.classList.add("mark");
 //       } else {
-//         spanElement.classList.remove("mark"); // Remove underline class if checkbox is not checked
+//         spanElement.classList.remove("mark"); 
 //       }
 //     }
 //   });
